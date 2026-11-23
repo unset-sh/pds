@@ -11,6 +11,9 @@ Agents may review and merge eligible feature changes into `staging` after checks
 Product integration belongs in `backend`; environment provisioning and runtime
 wiring belong in `deployment`.
 
+The agent-kit copy is installed under `.claude/`; CI checks it with
+`bun .claude/agent-kit/sync.mjs --check`. Assistants start from [`AGENTS.md`](AGENTS.md).
+
 ## Licence
 
 Copyright (c) 2026 Alex (Undefined6799). First-party work is [AGPL-3.0-only](LICENSE).

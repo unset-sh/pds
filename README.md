@@ -10,3 +10,8 @@ Agents may review and merge eligible feature changes into `staging` after checks
 
 Product integration belongs in `backend`; environment provisioning and runtime
 wiring belong in `deployment`.
+
+## Licence
+
+Copyright (c) 2026 Alex (Undefined6799). First-party work is [AGPL-3.0-only](LICENSE).
+Third-party work, including the upstream PDS, keeps its own licence.
